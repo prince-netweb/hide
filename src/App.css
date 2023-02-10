@@ -1,38 +1,59 @@
 .App {
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-close {
+  background-color: rgb(230, 90, 10);
   color: white;
+  min-width: 200px;
+  padding: 10px;
+  border: none;
+  margin: 70px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.active {
+  background-color: #b6d6e4;
+  color: rgb(252, 26, 19);
+  min-width: 200px;
+  padding: 10px;
+  border: none;
+  margin: auto;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit_btn {
+  background-color: #0a71f0;
+  color: white;
+  min-width: 100px;
+  padding: 10px;
+  border: none;
+  margin: auto;
+
+
+}
+
+.btn {
+  background-color: rgb(18, 69, 235);
+  color: white;
+  min-width: 200px;
+  padding: 10px;
+  border: none;
+  margin: 70px auto;
+}
+
+.form_handle {
+  text-align: left;
+  padding: 12px;
+  background-color: #f0deaf;
+  width: 200px;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+input {
+  margin: 10px 0px;
+  height: 25px;
 }
